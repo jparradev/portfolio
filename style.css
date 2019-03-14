@@ -1,0 +1,95 @@
+/* ***********************************
+
+COLOR PALLATE:
+
+#B3F700 - OFF NEON GREEN - NO USE
+#D2FF00 - OFF NEON YELLOW - NO USE
+#13181B - BLACK - BACKGROUND
+#00C41F - GREEN - TITLE
+#E9EBEA - LIGHT GREY - SUB TITLES
+
+*********************************** */
+
+
+body{
+    background-color: #13181B;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#header {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#titleBox {
+    margin: 35px 0 20px 0;
+    padding: 5px;
+}
+
+#work {
+    margin-top: 50px;
+    padding: 5px;
+}
+
+#footer {
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    height: 50px;
+}
+
+#workTitle{
+    margin:0 0 10px 0;
+}
+
+.card{
+    margin-top: 10px;
+    border: none;
+    /* height: 325px; */
+}
+
+.card-body{
+    background-color: rgba(19,24,27,.9);
+}
+
+.title{
+    color: #00C414;
+}
+
+.subTitle{
+   color: #E9EBEA;
+}
+
+#bars-dropdown {
+    color: #E9EBEA;
+}
+
+.card-title{
+    color: #00C414;
+}
+
+.card-text{
+    color: #E9EBEA;
+}
+
+.btn{
+    margin-top: 13px;
+    color: #E9EBEA;
+    background-color: #00C414;
+}
+
+.btn:hover{
+    color: #00C414;
+    background-color: #E9EBEA;
+}
+
+ul {
+    color: #E9EBEA;
+}
+
+.row{
+    margin: 0 0 15px 0;
+}
+
+.more{
+    color: #00C414;
+}
