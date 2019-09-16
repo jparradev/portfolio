@@ -2,154 +2,203 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jeremy Parra | Web Developer Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jeremy Parra || Full Stack Developer</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+    <!-- Custom styles -->
+    <link href="./assets/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div id="header">
-            <div class="dropdown">
-                <i id="bars-dropdown" class="fas fa-bars fa-2x" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false"></i>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">My Work</a>
-                    <!-- <a class="dropdown-item" href="about">About</a> -->
-                    <!--<a class="dropdown-item" href="contact">Contact</a> -->
+    <header>
+        <div class="bg-dark my-header">
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">About Me</a></li>
+                            <li><a href="#" class="text-white">My Work</a></li>
+                            <li><a href="#" class="text-white">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </div> -->
         </div>
-        <div id="titleBox">
-            <h1 class="title">Jeremy Parra</h1>
-            <h5 class="subTitle">Web Developer</h5>
-        </div>
-        <div id="work">
-            <div id="workTitle">
-                <h4 class="title">Work</h4>
+    </header>
+
+    <main role="main">
+        <section class="jumbotron text-center" id="about">
+            <div class="container headshot overlay">
+                <h1 class="jumbotron-heading">Jeremy Parra <span id="tag">Full Stack Developer</span></h1>
+                <p class="lead text-muted">As a web developer, I enjoy solving problems and getting to be a "maker of things". With a passion for learning new technologies and creative expression, I am looking to find a team where I can put my full skill set to work. I’m excited to make new contacts and find opportunity in a high growth environment.</p>
+                <p>
+                    <a href="index.html#work" class="btn btn-primary my-2">My Work</a>
+                    <a href="index.html#contact" class="btn btn-secondary my-2">Contact Information</a>
+                </p>
+                <p>
+                    <img src="assets/hedshot.png" id="headshot" />
+                </p>
+
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Mock Small Business Web Site</h5>
-                            <p class="card-text">This is a full-stack mock small business website hosted on Heroku. The site features a list of NPM packages to send customer requests as emails, and uses passport to authenticate an Admin user.</p>
-                            <ul>
-                                <li>Express.js</li>
-                                <li>React</li>
-                                <li>Node.js</li>
-                                <li>MongoDB</li>
-                            </ul>
-                            <a href="https://jp-final-project.herokuapp.com/" target="_blank" class="btn">Open</a>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row" id='work'>
+                    <div class="col-md-12">
+                        <h1 class="section-heading">My Work</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <img src="assets/biz.png" class="card-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mock Small Business Web Site</h5>
+                                    <p class="card-info">
+                                        This is a full-stack mock small business website hosted on Heroku.
+                                        The site features a list of NPM packages to send customer requests as emails, and
+                                        uses passport to authenticate an Admin user.</p>
+                                    <ul>
+                                        <li>Express.js</li>
+                                        <li>React</li>
+                                        <li>Node.js</li>
+                                        <li>MongoDB</li>
+                                    </ul>
+                                    <a href="https://jp-final-project.herokuapp.com/" target="_blank" class="card-btn btn">View</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="assets/calc.png" class="card-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">iOS Calculator</h5>
+                                    <p class="card-info">
+                                        A basic calculator app made to resemble the iOS calculator.</p>
+                                    <ul>
+                                        <li>JavaScript/jQuery</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                    </ul>
+                                    <a href="https://jparradev.github.io/calculator/" target="_blank" class="card-btn btn">View</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Bamazon!</h5>
-                            <p class="card-text">Bamazon in CLI node app that simulates an online
-                                store. The app takes user input from the CLI and uses
-                                    it to make changes to a MySQL database.
-                            </p>
-                            <ul>
-                                <li>Node.js</li>
-                                <li>MySQL</li>
-                                <li>MAMP/MySQL Workbench</li>
-                            </ul>
-                            <a href="https://github.com/jparradev/Bamazon-CLI" target="_blank" class="btn">Open</a>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <img src="assets/bamazon.png" class="card-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bamazon!</h5>
+                                    <p class="card-info">
+                                        Bamazon in CLI node app that simulates an online
+                                        store. The app takes user input from the CLI and uses
+                                        it to make changes to a MySQL database.</p>
+                                    <ul>
+                                        <li>JavaScript</li>
+                                        <li>HTML/CSS</li>
+                                        <li>Bootstrap</li>
+                                    </ul>
+                                    <a href="https://github.com/jparradev/Bamazon-CLI" target="_blank" class="card-btn btn">View</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="assets/letter_guess.png" class="card-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Letter Guessing Game</h5>
+                                    <p class="card-info">
+                                        This is a "game" where the user is to guess the letter the app is
+                                        "thinking of", utilizing a counter to end the game after 10 guesses.</p>
+                                    <ul>
+                                        <li>JavaScript/jQuery</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                    </ul>
+                                    <a href="https://jparradev.github.io/word-guess-game/" target="_blank" class="card-btn btn">View</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">iOS Calculator</h5>
-                            <p class="card-text">
-                                A basic calculator app made to resemble the iOS calculator.
-                            </p>
-                            <ul>
-                                <li>JavaScript/jQuery</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                            </ul>
-                            <a href="https://jparradev.github.io/calculator/" target="_blank" class="btn">Open</a>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <img src="assets/friend.png" class="card-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Friend Finder</h5>
+                                    <p class="card-info">
+                                        Friend Finder akes the user through a questionaire to find suitable
+                                        "friends", based on the responses.
+                                        The user is then added to the list of "friends" for future users.</p>
+                                    <ul>
+                                        <li>Express.js</li>
+                                        <li>JavaScript</li>
+                                        <li>HTML/CSS</li>
+                                        <li>RESTful API</li>
+                                    </ul>
+                                    <a href="https://friend-finder-00.herokuapp.com/" target="_blank" class="card-btn btn">View</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="assets/crystals.png" class="card-image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Number Guessing Game</h5>
+                                    <p class="card-info">
+                                        A simple number guessing game where a winning number between 20-120 is selected at
+                                        random, and the user interacts by clicking on "crystals" to match it.</p>
+                                    <ul>
+                                        <li>JavaScript</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                    </ul>
+                                    <a href="https://jparradev.github.io/number-guess/" target="_blank" class="card-btn btn">View</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Letter Guessing Game</h5>
-                            <p class="card-text">This is a "game" where the user is to guess the letter the app is "thinking of", utilizing a counter to end the game after 10 guesses.</p>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML/CSS</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                            <a href="https://jparradev.github.io/word-guess-game/" target="_blank" class="btn">Open</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Friend Finder</h5>
-                            <p class="card-text">Friend Finder akes the user through a questionaire to find suitable "friends", based on the responses. 
-                                The user is then added to the list of "friends" for future users.  
-                            </p>
-                            <ul>
-                                <li>Express.js</li>
-                                <li>JavaScript</li>
-                                <li>HTML/CSS</li>
-                            </ul>
-                            <a href="https://friend-finder-00.herokuapp.com/" target="_blank" class="btn">Open</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Number Guessing Game</h5>
-                            <p class="card-text">
-                                A simple number guessing game where a winning number between 20-120 is selected at
-                                random, and the user interacts by clicking on "crystals" to match it.
-                            </p>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                            </ul>
-                            <a href="https://jparradev.github.io/number-guess/" target="_blank" class="btn">Open</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+                    
+    </main>
+
+    <section class="jumbotron text-center" id="contact">
+        <h1 class="section-heading">Contact Me</h1>
+        <a class="links" href="mailto: jparradev@gmail.com"><i class="fas fa-envelope-square" id="email"><p class="contact-text">Email</p></i></a>
+        <a class="links" href="tel:+13039291764"><i class="fas fa-phone-alt" alt="303-929-1764" id='phone'><p class="contact-text">Telephone</p></i></a>
+        <a class="links" href="https://github.com/jparradev?tab=repositories" target="_blank"><i class="fab fa-github" id='github'><p class="contact-text">GitHub</p></i></a>
+    </section>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
         </div>
-        <div id="footer">
-        </div>
-    </div>
-    <script>
-    </script>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/93cb678457.js"></script>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none"
+        style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
+        <defs>
+            <style type="text/css"></style>
+        </defs><text x="0" y="17"
+            style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text>
+    </svg>
 </body>
 
 </html>
